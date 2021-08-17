@@ -3,7 +3,7 @@ import requests, sys
 class Exploit:
 
     def __init__(self, username, email):
-        self.username = token
+        self.username = username
         self.email = email
 
     def execute(self):
